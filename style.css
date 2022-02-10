@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .Logo {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(2, 23, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a{
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+}
+
+.search {
+    display: flex;
+}
+
+header .pesquisar {
+    height: 29px;
+    width: 500px;
+}
+
+header .search-button {
+    height: 31px;
+    width:31px;
+    background: url("imagens/search-buton.jpg") no-repeat;
+    display: block;
+    background-size: 26px;
+    border: none;
+}
+
+.search-button:hover {
+    background: url("imagens/search-buton.jpg");
+}
+
+
+.filme-principal {
+    font-size: 15px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('imagens/capa-tbbt1661.jpg');
+    background-size: 1250px;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    height: 450px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.conteiner {
+    margin: 2%;
+}
+
+.filme-principal .titulo{
+    margin-top: 13%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botoes {
+    margin-bottom: 20px;
+}
+
+.botao {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-top: 5%;
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    padding: 15px 30px;
+    margin-left: 10px;
+
+    cursor: pointer;
+    transition: .3 ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.titulo-do-carrousel {
+    margin: 10px;
+    color: rgb(168, 168, 168);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box-filme { 
+    height: 100%;
+    width: 100%;
+    display: block;
+}

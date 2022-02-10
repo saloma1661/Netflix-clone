@@ -1,0 +1,23 @@
+@media screen and (max-width: 943px){
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .botoes{
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .Descricao {
+        width: 50%;
+    }  
+}
+
+@media screen and (max-width: 539px){
+    .search{
+        width: 50%;
+    }
+}
