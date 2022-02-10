@@ -1,8 +1,10 @@
 # Netflix-clone
   Projeto onde criei uma "cópia" da netflix com uma proposta diferente: um site focado em conteúdos cinematográficos dos anos 2000 que são altamente nostálgicos.
+  Este projeto foi desenvolvido através dos conhecimentos adquiridos no curso "HTML Web Developer" da plataforma Digital innovation one.
 
-# Desenvolvimento
-Este projeto foi desenvolvido através dos conhecimentos adquiridos no curso "HTML Web Developer" da plataforma Digital innovation one.
+# Visualizar
+  Para Rodar o projeto, baixe os arquivos e execute o arquivo index.
+  
 
 # Preview
  Cima
